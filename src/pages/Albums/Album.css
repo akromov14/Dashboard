@@ -1,0 +1,32 @@
+.rasm {
+    width: 400px !important;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.rasm:hover {
+    transform: rotate(10deg);
+    opacity: 0.5;
+}
+
+.Umbrella {
+    width: 700px !important;
+    margin-left: 200px;
+
+}
+
+@media (max-width: 770px) {
+    .rasm {
+        width: 400px !important;
+        margin-right: 20px;
+        margin-top: 10px;
+        transition: 1s;
+    }
+
+    .Umbrella {
+        width: 400px !important;
+        margin-left: 10px;
+
+    }
+}
