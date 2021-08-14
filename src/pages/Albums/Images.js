@@ -13,7 +13,6 @@ function MyComponent() {
         <img src="http://images6.fanpop.com/image/photos/35200000/Naruto-wallpaper-anime-35264399-3668-2751.jpg" alt="Umbrella" className="Umbrella Umbrella3"/>
       </a>
       
-     
       <a href="/link/for/the/full/width/image/image_three.jpg">
         <Image
           src="/link/for/the/thumbnail/image_three.jpg"

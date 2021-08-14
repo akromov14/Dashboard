@@ -21,7 +21,6 @@ const Album = () => {
             <div className="row">
                 {
                     data.map(v =>
-
                         <div className="col-md-4">
                             <div className="card">
                                 <div>
@@ -32,13 +31,9 @@ const Album = () => {
                                 </div>
                             </div>
                         </div>
-                        
-                        
-
                         )
                 }
             </div>
-           
         </AlbumsWrapper>
     )
 }

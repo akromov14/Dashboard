@@ -9,15 +9,16 @@ const AlbumsWrapper = styled.div`
         height: 200px;
         margin-bottom: 10px;
         transition: 1s;
-        &:hover{
+
+        &:hover {
             background-color: blue !important;
             color: white;
             transform: rotate(10deg);
         }
-        h4{
+
+        h4 {
             padding: 10px;
         }
-      
     }
 `;
 

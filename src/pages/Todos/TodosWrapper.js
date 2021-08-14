@@ -5,8 +5,8 @@ const TodosWrapper =styled.div`
         transition: 0.7s;
        
         &:hover{
-            background-color: white !important;
-            cursor: pointer;
+            background-color: blue !important;
+            cursor: pointer !important;
         }
     }
 `;

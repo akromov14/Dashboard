@@ -4,8 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { Table } from 'reactstrap';
 import { setTodos } from '../../redux/action';
-
-import TodosWrapper from './TodosWrapper'
+import TodosWrapper from './TodosWrapper';
 
 const Todos = () => {
     const { menu } = useParams();

@@ -1,4 +1,5 @@
 const initialState = {
+    isSidebarShow: false,
     todos: [],
     albums: []
 };

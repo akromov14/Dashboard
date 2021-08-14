@@ -4,6 +4,7 @@ import Todos from '../Todos';
 import Albums from '../../pages/Albums/Album'
 import Dashboardss from '../../components/Dashboard';
 import Photos from '../Photos';
+import Home from '../HomePage';
 
 const Dashboard = () => {
     const { menu } = useParams();
@@ -11,7 +12,7 @@ const Dashboard = () => {
 
     return (
         <Dashboardss>
-            
+           {menu === "home" && <Home /> || ""}
            {menu === "todos" && <Todos/> || ""}
            {menu === "albums" && <Albums/> || ""}
            {menu === "photos" && <Photos/> || ""}

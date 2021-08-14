@@ -11,6 +11,5 @@ a:hover {
 }
 
 body {
-  background: rgb(252, 248, 254);
-  background: linear-gradient(65deg, rgba(252, 248, 254, 1) 0%, rgba(252, 0, 18, 1) 0%, rgba(59, 46, 245, 1) 100%);
+  background-color: #F4F6F9;
 }
